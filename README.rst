@@ -21,7 +21,7 @@ Installation
 
 2. Include the loaderio URLconf in your project urls.py::
 
-    url('^$', include('loaderio.urls'))
+    url('^', include('loaderio.urls'))
 
 3. Update your database schema with the new models::
 
